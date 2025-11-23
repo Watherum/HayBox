@@ -29,6 +29,7 @@ void Rivals2::UpdateDigitalOutputs(const InputState &inputs, OutputState &output
     outputs.select = inputs.mb3;
     outputs.home = inputs.mb2;
     outputs.leftStickClick = inputs.rf7;
+    outputs.rightStickClick = inputs.lf7;
     outputs.buttonL = inputs.rf8; // changed from rightStickClick to buttonL
     // only because buttonL is a default mapping in Rivals 2 (doesn't really matter)
 
