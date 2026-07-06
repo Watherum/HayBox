@@ -105,7 +105,7 @@ const Config default_config = {
     .communication_backend_configs = {
         CommunicationBackendConfig {
             .backend_id = COMMS_BACKEND_XINPUT,
-            .default_mode_config = 1,
+            .default_mode_config = 6,
         },
         CommunicationBackendConfig {
             .backend_id = COMMS_BACKEND_DINPUT,
